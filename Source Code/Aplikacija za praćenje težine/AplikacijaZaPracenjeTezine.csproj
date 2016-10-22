@@ -1,0 +1,279 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2AE4F7B3-4F79-4792-8BE7-C0381FBE93A2}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AplikacijaZaPracenjeTezine</RootNamespace>
+    <AssemblyName>Aplikacija za praćenje težine</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MySql.Data, Version=6.6.5.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework">
+      <HintPath>..\packages\NUnit.2.6.3\lib\nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Forme\DnevnikAktivnosti.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forme\DnevnikAktivnosti.Designer.cs">
+      <DependentUpon>DnevnikAktivnosti.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forme\DnevnikIshrane.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forme\DnevnikIshrane.Designer.cs">
+      <DependentUpon>DnevnikIshrane.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forme\DnevnikPica.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forme\DnevnikPica.Designer.cs">
+      <DependentUpon>DnevnikPica.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forme\DnevnikTezine.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forme\DnevnikTezine.Designer.cs">
+      <DependentUpon>DnevnikTezine.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forme\IzmjenaSifre.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forme\IzmjenaSifre.Designer.cs">
+      <DependentUpon>IzmjenaSifre.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forme\Graf.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forme\Graf.Designer.cs">
+      <DependentUpon>Graf.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forme\KorisnickiPodaci.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forme\KorisnickiPodaci.Designer.cs">
+      <DependentUpon>KorisnickiPodaci.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forme\Pomoc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forme\Pomoc.Designer.cs">
+      <DependentUpon>Pomoc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forme\Prijava.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forme\Prijava.Designer.cs">
+      <DependentUpon>Prijava.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forme\Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forme\Menu.Designer.cs">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forme\ProfilKorisnika.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forme\ProfilKorisnika.Designer.cs">
+      <DependentUpon>ProfilKorisnika.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forme\PregledStanja.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forme\PregledStanja.Designer.cs">
+      <DependentUpon>PregledStanja.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Forme\DnevnikAktivnosti.resx">
+      <DependentUpon>DnevnikAktivnosti.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forme\DnevnikIshrane.resx">
+      <DependentUpon>DnevnikIshrane.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forme\DnevnikPica.resx">
+      <DependentUpon>DnevnikPica.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forme\DnevnikTezine.resx">
+      <DependentUpon>DnevnikTezine.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forme\IzmjenaSifre.resx">
+      <DependentUpon>IzmjenaSifre.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forme\Graf.resx">
+      <DependentUpon>Graf.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forme\Pomoc.resx">
+      <DependentUpon>Pomoc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forme\PregledStanja.resx">
+      <DependentUpon>PregledStanja.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forme\Prijava.resx">
+      <DependentUpon>Prijava.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forme\Menu.resx">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forme\ProfilKorisnika.resx">
+      <DependentUpon>ProfilKorisnika.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forme\KorisnickiPodaci.resx">
+      <DependentUpon>KorisnickiPodaci.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LoginSlika.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LayerLogin.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\layer2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SlikaHarana.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SlikaPice.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SlikaPice1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SlikaPica.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LikaAktivnost.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SlikaTezina.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SlikaTezine1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SlikaTezina1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\User.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\User1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ReportSlika.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ReportSlika1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Help slika.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PiramidaIshrane.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PozadinaMenija.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SlikaSlike.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SlikaSlike1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PozadinaMenija1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PozadinaMeniIkona.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PozadinaZamagljena.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\etf-dugi.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DBConnection\DBConnection.csproj">
+      <Project>{9CD3EB54-63AE-4C94-B2F8-1B03F2C91FB4}</Project>
+      <Name>DBConnection</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\copyleft-small.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

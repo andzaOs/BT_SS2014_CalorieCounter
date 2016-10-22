@@ -1,0 +1,21 @@
+C:\Users\Anela\documents\visual studio 2010\Projects\Aplikacija za praćenje težine\Aplikacija za praćenje težine\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Anela\documents\visual studio 2010\Projects\Aplikacija za praćenje težine\Aplikacija za praćenje težine\obj\x86\Debug\Aplikacija_za_praćenje_težine.Prijava.resources
+C:\Users\Anela\documents\visual studio 2010\Projects\Aplikacija za praćenje težine\Aplikacija za praćenje težine\obj\x86\Debug\Aplikacija_za_praćenje_težine.ProfilKorisnika.resources
+C:\Users\Anela\documents\visual studio 2010\Projects\Aplikacija za praćenje težine\Aplikacija za praćenje težine\obj\x86\Debug\Aplikacija_za_praćenje_težine.KorisnickiPodaci.resources
+C:\Users\Anela\documents\visual studio 2010\Projects\Aplikacija za praćenje težine\Aplikacija za praćenje težine\obj\x86\Debug\Aplikacija_za_praćenje_težine.Properties.Resources.resources
+C:\Users\Anela\documents\visual studio 2010\Projects\Aplikacija za praćenje težine\Aplikacija za praćenje težine\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Anela\documents\visual studio 2010\Projects\Aplikacija za praćenje težine\Aplikacija za praćenje težine\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Anela\documents\visual studio 2010\Projects\Aplikacija za praćenje težine\Aplikacija za praćenje težine\obj\x86\Debug\Aplikacija_za_praćenje_težine.Menu.resources
+C:\Users\Anela\documents\visual studio 2010\Projects\Aplikacija za praćenje težine\Aplikacija za praćenje težine\bin\Debug\Aplikacija za praćenje težine.exe
+C:\Users\Anela\documents\visual studio 2010\Projects\Aplikacija za praćenje težine\Aplikacija za praćenje težine\bin\Debug\Aplikacija za praćenje težine.pdb
+C:\Users\Anela\documents\visual studio 2010\Projects\Aplikacija za praćenje težine\Aplikacija za praćenje težine\obj\x86\Debug\Aplikacija za praćenje težine.exe
+C:\Users\Anela\documents\visual studio 2010\Projects\Aplikacija za praćenje težine\Aplikacija za praćenje težine\obj\x86\Debug\Aplikacija za praćenje težine.pdb
+C:\Users\Anela\documents\visual studio 2010\Projects\Aplikacija za praćenje težine\Aplikacija za praćenje težine\obj\x86\Debug\Aplikacija_za_praćenje_težine.DnevnikIshrane.resources
+C:\Users\Anela\documents\visual studio 2010\Projects\Aplikacija za praćenje težine\Aplikacija za praćenje težine\obj\x86\Debug\Aplikacija_za_praćenje_težine.DnevnikAktivnosti.resources
+C:\Users\Anela\documents\visual studio 2010\Projects\Aplikacija za praćenje težine\Aplikacija za praćenje težine\obj\x86\Debug\Aplikacija_za_praćenje_težine.DnevnikPica.resources
+C:\Users\Anela\documents\visual studio 2010\Projects\Aplikacija za praćenje težine\Aplikacija za praćenje težine\obj\x86\Debug\Aplikacija_za_praćenje_težine.DnevnikTezine.resources
+C:\Users\Anela\documents\visual studio 2010\Projects\Aplikacija za praćenje težine\Aplikacija za praćenje težine\obj\x86\Debug\Aplikacija_za_praćenje_težine.Izvjestaji.resources
+C:\Users\Anela\documents\visual studio 2010\Projects\Aplikacija za praćenje težine\Aplikacija za praćenje težine\obj\x86\Debug\Aplikacija_za_praćenje_težine.Pomoc.resources
+C:\Users\Anela\documents\visual studio 2010\Projects\Aplikacija za praćenje težine\Aplikacija za praćenje težine\obj\x86\Debug\Aplikacija_za_praćenje_težine.Slike.resources
+E:\Anela\Aplikacija za praćenje težine\Aplikacija za praćenje težine\obj\x86\Debug\Aplikacija za praćenje težine.exe
+E:\Anela\Aplikacija za praćenje težine\Aplikacija za praćenje težine\obj\x86\Debug\Aplikacija za praćenje težine.pdb
