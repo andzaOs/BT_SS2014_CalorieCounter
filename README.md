@@ -13,3 +13,5 @@
 **Database:** MySql
 
 **IDE:** Visual Studio 2012
+
+**User Manual** https://github.com/aosmanovic/BT_SS2014_CalorieCounter/blob/master/Source%20Code/Aplikacija%20za%20praćenje%20težine/Resources/KorisnickoUpustvo.pdf
