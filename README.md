@@ -2,7 +2,7 @@
 
 **Institution:** University of Sarajevo, Faculty of Electrical Engineering
 
-**Bachelor Thesis Topic** Object oriented analysis and design of application for food and activity tracking and body weight control using UML diagrams
+**Bachelor thesis topic:** Object oriented analysis and design of application for food and activity tracking and body weight control using UML diagrams
 
 **Academic year:** 2013/2014
 
