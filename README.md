@@ -12,7 +12,7 @@
 
 **Programming language:** C#
 
-**Technologies:** MySql, NUnit
+**Technologies:** MySql Workbench, NUnit
 
 **IDE:** Visual Studio 2012
 
